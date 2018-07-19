@@ -1,0 +1,26 @@
+App\Entity\Event:
+    type: entity
+    repositoryClass: App\Repository\EventRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        content:
+            type: text
+        datetime:
+            type: datetime
+        createdAt:
+            type: datetime
+        updatedAt:
+            type: datetime
+            nullable: true
+    manyToOne:
+        calendar:
+            targetEntity: App\Entity\Calendar
+            inversedBy: events

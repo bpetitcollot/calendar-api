@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/bepetitcollot/Projects/calendar/api/src/Controller/EventController.php</file>
+            <file>file:/home/bepetitcollot/Projects/calendar/api/config/routes.yaml</file>
+            <file>file:/home/bepetitcollot/Projects/calendar/api/src/Controller/CalendarController.php</file>
+            <file>file:/home/bepetitcollot/Projects/calendar/api/src/Repository/EventRepository.php</file>
+            <file>file:/home/bepetitcollot/Projects/calendar/api/src/Serializer/JsonApiAdapter.php</file>
+        </group>
+    </open-files>
+</project-private>

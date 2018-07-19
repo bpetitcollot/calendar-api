@@ -1,0 +1,15 @@
+calendar:
+    type: rest
+    resource: App\Controller\CalendarController
+calendar_options_calendars:
+    path: /calendars
+    methods: ['OPTIONS']
+    controller: App\Controller\CalendarController::optionsCalendars
+    
+event:
+    type: rest
+    resource: App\Controller\EventController
+calendar_options_events:
+    path: /events
+    methods: ['OPTIONS']
+    controller: App\Controller\EventController::optionsEvents
